@@ -1,5 +1,5 @@
 nav{
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,6 +38,7 @@ nav ul li a{
     padding: 5px;
     transition: .3s ease;
     position: relative;
+    font-weight: bold;
 }
 
 nav ul li a:hover{
@@ -90,13 +91,14 @@ nav .fa{
         top:0;
         right:0;
         width:35%;
-        background-color: red;
+        background-color: #191641;
         padding:10px;
         height: 100vh;
         z-index: 99;
         transform: scaleX(0);
         transition: .1s ease-in;
         transform-origin: right;
+        opacity: 70%;
     }
     
     nav ul.menu{
@@ -104,7 +106,7 @@ nav .fa{
     }
 
     nav ul li {
-        margin-top:10px;
+        margin-top:12px;
     }
 
     nav ul li a{
