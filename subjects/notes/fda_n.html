@@ -30,7 +30,7 @@
         console.log(Object.keys(data).length);
         for (let i = 1; i < Object.keys(data).length + 1; i++){
             let link = document.getElementById(i);
-            console.log('href', Object.values(data)[i-1][rand]);
+            link.setAttribute('href', Object.values(data)[i-1][rand]);
             link.innerHTML = Object.keys(data)[i-1];
         }
         })
