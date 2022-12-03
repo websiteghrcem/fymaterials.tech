@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="/subjects/subject2.css" />
     <title>Document</title>
     <script >
+    var rand = Math.floor(Math.random() * 2);
     fetch("https://websiteghrcem.github.io/subjects/physics.json")
         .then(response => response.json())
         .then(data => {
