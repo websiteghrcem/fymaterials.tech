@@ -29,14 +29,12 @@
         console.log(Object.keys(data).length);
         for (let i = 1; i < Object.keys(data).length + 1; i++){
             let link = document.getElementById(i);
-            link.setAttribute('href', Object.values(data)[i-1]);
+            console.log('href', Object.values(data)[i-1][rand]);
             link.innerHTML = Object.keys(data)[i-1];
-
-    }
-    
-    
-  })
-  .catch(console.error);
+        }
+        })
+        .catch(console.error);
+Promise { <state>: "pending" }
 
 
     </script>
